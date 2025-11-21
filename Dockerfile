@@ -1,4 +1,4 @@
-FROM cr.weaviate.io/semitechnologies/weaviate:1.29.1
+FROM cr.weaviate.io/semitechnologies/weaviate:1.34.0
 
 ENV AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED=true
 ENV PERSISTENCE_DATA_PATH=/var/lib/weaviate
